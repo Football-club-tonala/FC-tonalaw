@@ -1,0 +1,11 @@
+{
+  "name": "equipo-futbol-app-vanilla",
+  "version": "1.0.0",
+  "scripts": {
+    "db:seed": "node -r dotenv/config ./scripts/seed.js"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^0.9.0",
+    "dotenv": "^16.4.5"
+  }
+}
